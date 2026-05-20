@@ -1,6 +1,6 @@
 cask "autoquit" do
-  version "1.0.0"
-  sha256 "09619e330090349c584ad25c0339fdeca212823421406752799dbdeee5f3e970"
+  version "1.0.1"
+  sha256 "ff098711925e39b933abef4f9bb0f1b398c834c8a44e08067c49522a95a54c5f"
 
   url "https://github.com/yan-vikng-dev/AutoQuit/releases/download/v#{version}/AutoQuit-v#{version}-macos.zip"
   name "AutoQuit"
@@ -12,7 +12,7 @@ cask "autoquit" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AutoQuit.app"
 
