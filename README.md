@@ -3,5 +3,6 @@
 Install AutoQuit with:
 
 ```bash
-brew install --cask yan-vikng-dev/tap/autoquit
+brew tap yan-vikng-dev/tap
+brew install --cask autoquit
 ```
